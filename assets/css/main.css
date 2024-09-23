@@ -60,6 +60,25 @@ mark {
 	color: inherit;
 }
 
+#data-container {
+    margin: 20px; /* Відступи навколо контейнера */
+    padding: 10px; /* Внутрішні відступи */
+    background-color: #fcadd9; /* Світлий фон */
+    border: 1px solid #ddd; /* Сіра рамка */
+    border-radius: 5px; /* Закруглені кути */
+    max-height: 400px; /* Максимальна висота контейнера */
+    overflow-y: auto; /* Прокрутка по вертикалі, якщо вміст перевищує висоту */
+}
+
+.post {
+    margin-bottom: 15px; /* Відступи між постами */
+    padding: 10px; /* Внутрішні відступи постів */
+    background-color: #ffa5e1; /* Білий фон для постів */
+    border: 1px solid #ccc; /* Світло-сіра рамка */
+    border-radius: 3px; /* Закруглені кути для постів */
+}
+
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -73,6 +92,45 @@ input, select, textarea {
 }
 
 /* Basic */
+.modal {
+    display: none; /* Сховати за замовчуванням */
+    position: fixed; /* Фіксоване позиціонування */
+    z-index: 1; /* Поверх всього іншого контенту */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ширина на весь екран */
+    height: 100%; /* Висота на весь екран */
+    overflow: auto; /* Прокрутка, якщо потрібно */
+    background-color: rgba(0, 0, 0, 0.4); /* Темний фон */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Білий фон для вмісту */
+    margin: 15% auto; /* Центрування */
+    padding: 20px;
+    border: 1px solid #888; /* Сіра рамка */
+    width: 80%; /* Ширина вмісту */
+}
+
+.close {
+    color: #aaa; /* Колір кнопки закриття */
+    float: right; /* Праворуч */
+    font-size: 28px; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт */
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Колір при наведенні */
+    text-decoration: none; /* Без підкреслення */
+    cursor: pointer; /* Курсор-рука */
+}
+
+
+
+
+
+
 
 	@-ms-viewport {
 		width: device-width;
