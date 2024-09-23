@@ -10,7 +10,6 @@ This project involves creating a feature branch for implementing TypeScript in a
 3. **TypeScript Setup**: TypeScript was installed in the project as outlined in the course materials.
 4. **JavaScript Interactivity**: Interactive features were added to the template, including:
    - Modal window functionality
-   - Event listeners for scroll and click events
    - Basic animations
    - Fetching and displaying data from `https://jsonplaceholder.typicode.com/`
 5. **TypeScript Code**: All JavaScript code was written in a TypeScript file, using primitive types. The TypeScript file is configured to compile to JavaScript.
